@@ -1,0 +1,12 @@
+// ===================================================
+// Start Generators
+// ===================================================
+
+// Include all Fontfaces from the Setup Map
+@include fontface-generator();
+
+// Generate the Baseclasses for the Icons
+@if map-get($meow-iconfont, name) {
+  @include icon-font-base(map-get($meow-iconfont, name));
+  @include icon-generator($meow-font-icons);
+}

@@ -1,0 +1,59 @@
+// ------------------------------------
+// Framework Defaults
+// ------------------------------------
+
+// Global spacing unit, used for Spacer and Lines Mixins.
+//
+// @type Number
+$meow-global-spacing: 20;
+
+// Default unit for unitless values.
+//
+// @type Number
+$meow-default-unit: px;
+
+// BEM Prefixes for Elements and Modifiers
+//
+// @type Map
+$meow-bem: (
+  element: '__',
+  modifier: '--',
+  instance: '---'
+);
+
+// meow Directory Organisation
+//
+// @type Map
+$meow-directories: (
+  fonts: '../fonts/',
+  images: '../img/',
+  svgonly: '../img/svgfiles/',
+  bitmaps: '../img/bitmaps/',
+  bitmap: 'bitmaps/',
+  vector: 'svgfiles/'
+);
+
+$meow-spritefiles: (
+  bitmap-sprite: 'sprite.png',
+  vector-sprite: 'vector-sprite.svg'
+);
+
+// Activate Base Features
+//
+// - 'debugging' {Bool} - Activate the CSS Debugging Features
+// - 'box-sizing' {Bool} - Activate the new old Box Model ;P
+// - 'baseline' {Bool} - Activate Baseline Features
+// - 'hyphens' {Bool} - All Words would be breaked with Hyphens
+// - 'viewport-fix' {Bool} - Activate Viewport-Fixes for Windows Mobile 8
+// - 'mobile-first' {Bool} - Grid and Breakpoints oriented from Smallest to Biggest Size
+//
+// @type Map
+$meow-activate: (
+  debugging: false,
+  box-sizing: true,
+  baseline: false,
+  antialias: true,
+  hyphens: true,
+  viewport-fix: false,
+  mobile-first: true
+);
