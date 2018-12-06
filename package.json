@@ -2,7 +2,7 @@
   "name": "light-boilerplate",
   "version": "1.0.0",
   "description": "Lightweight and powerfull startkit for your next project!",
-  "homepage": "https://redeagleap.github.io/light-boilerplate",
+  "homepage": "https://redeagleap.github.io/light-boilerplate/",
   "repository": {
     "type": "git",
     "url": "git://github.com/redeagleap/light-boilerplate.git"
@@ -144,7 +144,7 @@
     "yargs": "^12.0.5"
   },
   "bugs": {
-    "url": "https://github.com/redeagleap/light-boilerplate/issues"
+    "url": "https://github.com/RedEagleAP/light-boilerplate/issues"
   },
   "keywords": [
     "boilerplate",
