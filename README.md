@@ -44,7 +44,7 @@
 
 ## Intro
 
-"Light Boilerplate" is a toolkit designed to support mainly the construction of frontends. Anyone looking for a colorful mixture of prefabricated elements, as one would expect from bootstrap and co, will not be happy with Meow. Here rather the methods are offered to those elements on a simple way to generate and expand.
+"Light Boilerplate" is a toolkit designed to support mainly the construction of frontends. Anyone looking for a colorful mixture of prefabricated elements, as one would expect from bootstrap and co, will not be happy with "Light". Here rather the methods are offered to those elements on a simple way to generate and expand.
 
 Around the CSS part, there are still many automatic functions installed that help the developer. For example, to generate image assets and distribute, to build HTML mockups, to make sprites to generate fallbacks for SVG files. That's why I also avoid the term framework.
 
