@@ -48,7 +48,9 @@
 
 Around the CSS part, there are still many automatic functions installed that help the developer. For example, to generate image assets and distribute, to build HTML mockups, to make sprites to generate fallbacks for SVG files. That's why I also avoid the term framework.
 
-This is a more lightweight version of the boilerplate based on [Meow-Boilerplate](https://github.com/RedEagleAP/Meow-Boilerplate)
+This is a more lightweight version of the boilerplate based on [Meow-Boilerplate](https://github.com/RedEagleAP/Meow-Boilerplate).
+
+As well as a template for creating [README.md](doc/TEMPLATE.md). Or directly to [repo](https://github.com/RedEagleAP/readme-template).
 
 ## Technologies used
 
