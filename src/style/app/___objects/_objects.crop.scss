@@ -4,12 +4,11 @@
  |--------------------------------------------------------------------------
  */
 
-$bk-crops: (
-  (2:1),
-  (3:2,)
-  (4:3),
-  (16:9),
-  (16:10),
+$mw-crops: ((2:1),
+(3:2),
+(4:3),
+(16:9),
+(16:10),
 ) !default;
 
 .o-crop {
@@ -42,19 +41,20 @@ $bk-crops: (
 }
 
 // Crop Classes
-@each $crop in $bk-crops {
+@each $crop in $mw-crops {
 
-  @each $antecedent, $consequent in $crop {
+  @each $antecedent,
+  $consequent in $crop {
 
-    @if (type-of($antecedent) != number) {
+    @if (type-of($antecedent) !=number) {
       @error '`#{$antecedent}` needs to be a number.';
     }
 
-    @if (type-of($consequent) != number) {
+    @if (type-of($consequent) !=number) {
       @error '`#{$consequent}` needs to be a number.';
     }
 
-    .o-crop--#{$antecedent}\:#{$consequent} {
+    .o-crop--#{$antecedent}-#{$consequent} {
       padding-bottom: ($consequent/$antecedent) * 100%;
     }
   }
