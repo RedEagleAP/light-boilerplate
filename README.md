@@ -112,7 +112,7 @@ This install the required __node_modules__.
 
 Nice, now your project is ready for battle, and you just have to write your code, and not spend several hours each time setting up each new project. Enjoy!
 
-<a href="#contents">:top: back to top</a>
+<a href="#contents">:top: <sub>back to top</sub></a>
 
 <div id="commands"></div>
 
@@ -131,7 +131,7 @@ Nice, now your project is ready for battle, and you just have to write your code
 | Copy all or Generate the Template Files.                                                    | `npm run template`   | `yarn template`   |
 | Generate Favicons and the HTML Snippet (generated Files you will find in `src/.system/`)    | `npm run favicon`    | `yarn favicon`    |
 
-<a href="#contents">:top: back to top</a>
+<a href="#contents">:top: <sub>back to top</sub></a>
 
 <div id="technologies-used"></div>
 
@@ -213,7 +213,7 @@ Nice, now your project is ready for battle, and you just have to write your code
 
 </details>
 
-<a href="#contents">:top: back to top</a>
+<a href="#contents">:top: <sub>back to top</sub></a>
 
 <div id="structure"></div>
 
@@ -273,7 +273,7 @@ If you therefore should not be satisfied, you can change the structure in the `c
  <img src="https://lh3.googleusercontent.com/_cf76yEx5cvPd9bJTsEU4l-lI0iuhgYVeIYtDCU6q42lZx1tLk7SKrpJ3U8sUZ8VDO444SRbgOk" alt="dist_config">
 </p>
 
-<a href="#contents">:top: back to top</a>
+<a href="#contents">:top: <sub>back to top</sub></a>
 
 <div id="build"></div>
 
@@ -421,7 +421,7 @@ $bk-grid-settings-custom: (
 
 ---
 
-<a href="#contents">:top: back to top</a>
+<a href="#contents">:top: <sub>back to top</sub></a>
 
 <div id="build-structure"></div>
 
@@ -463,7 +463,7 @@ The Compiler is this, if not already, be switched off in the `config.json` (temp
 
 ---
 
-<a href="#contents">:top: back to top</a>
+<a href="#contents">:top: <sub>back to top</sub></a>
 
 <div id="build-js"></div>
 
@@ -505,7 +505,7 @@ gulp rebuild:js
 
 ---
 
-<a href="#contents">:top: back to top</a>
+<a href="#contents">:top: <sub>back to top</sub></a>
 
 <div id="license"></div>
 
@@ -513,7 +513,7 @@ gulp rebuild:js
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<a href="#contents">:top: back to top</a>
+<a href="#contents">:top: <sub>back to top</sub></a>
 
 <div id="author"></div>
 
@@ -533,4 +533,4 @@ Github : https://github.com/redeagleap/light-boilerplate.git
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-<a href="#contents">:top: back to top</a>
+<a href="#contents">:top: <sub>back to top</sub></a>
