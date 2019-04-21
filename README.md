@@ -64,12 +64,13 @@ This is a more lightweight version of the boilerplate based on [Meow-Boilerplate
 As well as a template for creating [README.md](doc/TEMPLATE.md). Or directly to [repo](https://github.com/RedEagleAP/readme-template).
 
 <div id="intro"></div>
+
 ## :package: Dependencies
 
 - [Node.js](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/) or [YARN](https://yarnpkg.com/lang/en/)
 
-<a href="#contents">:top: back to top</a>
+<a href="#contents">:top: <sub>back to top</sub></a>
 
 <div id="getting-started"></div>
 
