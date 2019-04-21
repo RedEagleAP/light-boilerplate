@@ -53,7 +53,7 @@
 
 <div id="intro"></div>
 
-## :rocket: Intro
+## :speech_balloon: Intro
 
 "Light Boilerplate" is a toolkit designed to support mainly the construction of frontends. Anyone looking for a colorful mixture of prefabricated elements, as one would expect from bootstrap and co, will not be happy with "Light". Here rather the methods are offered to those elements on a simple way to generate and expand.
 
