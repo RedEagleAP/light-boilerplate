@@ -52,6 +52,7 @@
 </details>
 
 <div id="intro"></div>
+
 ## :rocket: Intro
 
 "Light Boilerplate" is a toolkit designed to support mainly the construction of frontends. Anyone looking for a colorful mixture of prefabricated elements, as one would expect from bootstrap and co, will not be happy with "Light". Here rather the methods are offered to those elements on a simple way to generate and expand.
@@ -68,9 +69,10 @@ As well as a template for creating [README.md](doc/TEMPLATE.md). Or directly to 
 - [Node.js](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/) or [YARN](https://yarnpkg.com/lang/en/)
 
-<sub><a href="#contents">:arrow_up: back to top</a></sub>
+<a href="#contents">:top: back to top</a>
 
 <div id="getting-started"></div>
+
 ## :rocket: Getting started
 
 ### Npm&Yarn install:
@@ -109,9 +111,10 @@ This install the required __node_modules__.
 
 Nice, now your project is ready for battle, and you just have to write your code, and not spend several hours each time setting up each new project. Enjoy!
 
-<sub><a href="#contents">:arrow_up: back to top</a></sub>
+<a href="#contents">:top: back to top</a>
 
 <div id="commands"></div>
+
 ## :triangular_flag_on_post: Commands
 
  _With Webpack you have to use NPM Script Commands_
@@ -127,9 +130,10 @@ Nice, now your project is ready for battle, and you just have to write your code
 | Copy all or Generate the Template Files.                                                    | `npm run template`   | `yarn template`   |
 | Generate Favicons and the HTML Snippet (generated Files you will find in `src/.system/`)    | `npm run favicon`    | `yarn favicon`    |
 
-<sub><a href="#contents">:arrow_up: back to top</a></sub>
+<a href="#contents">:top: back to top</a>
 
 <div id="technologies-used"></div>
+
 ## :bento: Technologies used
 
 <details>
@@ -208,9 +212,10 @@ Nice, now your project is ready for battle, and you just have to write your code
 
 </details>
 
-<sub><a href="#contents">:arrow_up: back to top</a></sub>
+<a href="#contents">:top: back to top</a>
 
 <div id="structure"></div>
+
 ## :wrench: Structure
 
 In the directory `src/` is the source code, so that our working directory. In `dist/` directory that should not work, therefore, only if it is absolutely necessary.
@@ -267,12 +272,14 @@ If you therefore should not be satisfied, you can change the structure in the `c
  <img src="https://lh3.googleusercontent.com/_cf76yEx5cvPd9bJTsEU4l-lI0iuhgYVeIYtDCU6q42lZx1tLk7SKrpJ3U8sUZ8VDO444SRbgOk" alt="dist_config">
 </p>
 
-<sub><a href="#contents">:arrow_up: back to top</a></sub>
+<a href="#contents">:top: back to top</a>
 
 <div id="build"></div>
+
 ## :hammer: Build
 
 <div id="build-css"></div>
+
 ### :art: Build CSS
 
 <details>
@@ -413,9 +420,10 @@ $bk-grid-settings-custom: (
 
 ---
 
-<sub><a href="#contents">:arrow_up: back to top</a></sub>
+<a href="#contents">:top: back to top</a>
 
 <div id="build-structure"></div>
+
 ### :white_check_mark: Build Structure
 
 <details>
@@ -454,9 +462,10 @@ The Compiler is this, if not already, be switched off in the `config.json` (temp
 
 ---
 
-<sub><a href="#contents">:arrow_up: back to top</a></sub>
+<a href="#contents">:top: back to top</a>
 
 <div id="build-js"></div>
+
 ### :rainbow: Build JS
 
 <details>
@@ -495,16 +504,18 @@ gulp rebuild:js
 
 ---
 
-<sub><a href="#contents">:arrow_up: back to top</a></sub>
+<a href="#contents">:top: back to top</a>
 
 <div id="license"></div>
+
 ## :page_facing_up: License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<sub><a href="#contents">:arrow_up: back to top</a></sub>
+<a href="#contents">:top: back to top</a>
 
 <div id="author"></div>
+
 ## :penguin: Author
 
 ```txt
@@ -521,4 +532,4 @@ Github : https://github.com/redeagleap/light-boilerplate.git
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-<sub><a href="#contents">:arrow_up: back to top</a></sub>
+<a href="#contents">:top: back to top</a>
