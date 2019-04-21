@@ -10,8 +10,14 @@
   <a href="https://david-dm.org/redeagleap/light-boilerplate">
   <img src="https://david-dm.org/redeagleap/light-boilerplate/status.svg" alt="Dependencies Status">
   </a>
-  <a href="https://david-dm.org/redeagleap/light-boilerplate?type=dev">
-  <img src="https://david-dm.org/redeagleap/light-boilerplate/dev-status.svg" alt="devDependencies Status">
+  <a href="https://github.com/RedEagleAP/light-boilerplate/blob/master/LICENSE">
+  <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="devDependencies Status">
+  </a>
+  <a href="https://github.com/prettier/prettier">
+  <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=square" alt="Dependencies Status">
+  </a>
+  <a href="https://www.youtube.com/watch?v=QH2-TGUlwu4">
+  <img src="https://img.shields.io/badge/nyancat-approved-ff69b4.svg" alt="devDependencies Status">
   </a>
 </p>
 <p align="center">
@@ -27,22 +33,25 @@
 <!-- Used for the "back to top" links within the document -->
 <div id="contents"></div>
 
-## Table of Contents
+<details>
+  <summary><strong>🔖 Table of Contents</strong></summary>
 
-- [Intro](#intro)
-- [Technologies used](#technologies-used)
-- [Dependencies](#dependencies)
-- [Getting Started](#getting-started)
-- [Commands](#commands)
-- [Structure](#structure)
-- [Build](#build)
-  - [Build CSS](#build-css)
-  - [Build Structure](#build-structure)
-  - [Build JS](#build-js)
-- [License](#license)
-- [Author](#author)
+- [💬 Intro](#💬-intro)
+- [📦 Dependencies](#📦-dependencies)
+- [🚀 Getting Started](#🚀-getting-started)
+- [👌 Commands](#👌-commands)
+- [🍱 Technologies used](#🍱-technologies-used)
+- [🔧 Structure](#🔧-structure)
+- [🛠 Build](#🛠-build)
+  - [🎨 Build CSS](#🎨-build-css)
+  - [🏗 Build Structure](#🏗-build-structure)
+  - [👽 Build JS](#👽-build-js)
+- [📄 License](#📄-license)
+- [💎 Author](#💎-author)
 
-## Intro
+</details>
+
+## 💬 Intro
 
 "Light Boilerplate" is a toolkit designed to support mainly the construction of frontends. Anyone looking for a colorful mixture of prefabricated elements, as one would expect from bootstrap and co, will not be happy with "Light". Here rather the methods are offered to those elements on a simple way to generate and expand.
 
@@ -52,70 +61,14 @@ This is a more lightweight version of the boilerplate based on [Meow-Boilerplate
 
 As well as a template for creating [README.md](doc/TEMPLATE.md). Or directly to [repo](https://github.com/RedEagleAP/readme-template).
 
-## Technologies used
-
-**JavaScript**
-
-- [ES2017](https://medium.com/komenco/what-to-expect-from-javascript-es2017-the-async-edition-618e28819711) - support through compiler [Babel](https://babeljs.io/).
-
-- [Node](https://nodejs.org/) - is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.
-
-**Testing**
-
-- [Cypress](https://www.cypress.io/) - is a fast, easy and reliable testing for anything that runs in a browser.
-
-**Styles**
-
-- [Sass](https://sass-lang.com/) - is the most mature, stable, and powerful professional grade CSS extension language in the world.
-
-- [Sassdoc](http://sassdoc.com/) - is a documentation system to build pretty and powerful docs in the blink of an eye.
-
-- [PostCSS](https://postcss.org/) - is a tool for transforming CSS with JavaScript.
-
-- [Critical](https://github.com/addyosmani/critical) - extracts & inlines critical-path (above-the-fold) CSS from HTML.
-
-**Automation**
-
-- [Gulp](https://gulpjs.com/) - is a toolkit for automating painful or time-consuming tasks in your development workflow.
-
-- [Webpack](https://webpack.js.org/) - is a bundler for modules.
-
-**Optimization**
-
-- [Imagemin](https://github.com/imagemin/imagemin) - minify PNG, JPEG, JPG, GIF and SVG images.
-
-- [Uglify](https://github.com/mishoo/UglifyJS2) - is a JavaScript parser, minifier, compressor and beautifier toolkit.
-
-**Server**
-
-- [BrowserSync](http://www.browsersync.io/) - is a time-saving synchronised browser testing.
-
-**Linting**
-
-- [ESlint](http://eslint.org/) - is to provide a pluggable linting utility for JavaScript.
-
-- [HTMLHint](https://htmlhint.io/) - is a Static Code Analysis Tool for HTML.
-
-- [Stylelint](https://stylelint.io/) - is a mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
-
-- [Prettier](https://prettier.io/) - is an opinionated code formatter.
-
-**Code Management**
-
-- [Editorconfig](http://editorconfig.org/) - helps developers define and maintain consistent coding styles between different editors and IDEs.
-
-- [Git](https://git-scm.com/) - is a distributed version control system designed to handle everything from small to very large projects.
-
-<sub>[⇧ back to top](#contents)</sub>
-
-## Dependencies
+## 📦 Dependencies
 
 - [Node.js](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/) or [YARN](https://yarnpkg.com/lang/en/)
 
-<sub>[⇧ back to top](#contents)</sub>
+<sub>[⬆️ back to top](#contents)</sub>
 
-## Getting started
+## 🚀 Getting started
 
 ### Npm&Yarn install:
 
@@ -153,9 +106,9 @@ This install the required __node_modules__.
 
 Nice, now your project is ready for battle, and you just have to write your code, and not spend several hours each time setting up each new project. Enjoy!
 
-<sub>[⇧ back to top](#contents)</sub>
+<sub>[⬆️ back to top](#contents)</sub>
 
-## Commands
+## 👌 Commands
 
  _With Webpack you have to use NPM Script Commands_
 
@@ -170,9 +123,89 @@ Nice, now your project is ready for battle, and you just have to write your code
 | Copy all or Generate the Template Files.                                                    | `npm run template`   | `yarn template`   |
 | Generate Favicons and the HTML Snippet (generated Files you will find in `src/.system/`)    | `npm run favicon`    | `yarn favicon`    |
 
-<sub>[⇧ back to top](#contents)</sub>
+<sub>[⬆️ back to top](#contents)</sub>
 
-## Structure
+## 🍱 Technologies used
+
+<details>
+  <summary><strong>JavaScript</strong></summary>
+
+- [ES2017](https://medium.com/komenco/what-to-expect-from-javascript-es2017-the-async-edition-618e28819711) - support through compiler [Babel](https://babeljs.io/).
+
+- [Node](https://nodejs.org/) - is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.
+
+</details>
+
+<details>
+  <summary><strong>Testing</strong></summary>
+
+- [Cypress](https://www.cypress.io/) - is a fast, easy and reliable testing for anything that runs in a browser.
+
+</details>
+
+<details>
+  <summary><strong>Styles</strong></summary>
+
+- [Sass](https://sass-lang.com/) - is the most mature, stable, and powerful professional grade CSS extension language in the world.
+
+- [Sassdoc](http://sassdoc.com/) - is a documentation system to build pretty and powerful docs in the blink of an eye.
+
+- [PostCSS](https://postcss.org/) - is a tool for transforming CSS with JavaScript.
+
+- [Critical](https://github.com/addyosmani/critical) - extracts & inlines critical-path (above-the-fold) CSS from HTML.
+
+</details>
+
+<details>
+  <summary><strong>Automation</strong></summary>
+
+- [Gulp](https://gulpjs.com/) - is a toolkit for automating painful or time-consuming tasks in your development workflow.
+
+- [Webpack](https://webpack.js.org/) - is a bundler for modules.
+
+</details>
+
+<details>
+  <summary><strong>Optimization</strong></summary>
+
+- [Imagemin](https://github.com/imagemin/imagemin) - minify PNG, JPEG, JPG, GIF and SVG images.
+
+- [Uglify](https://github.com/mishoo/UglifyJS2) - is a JavaScript parser, minifier, compressor and beautifier toolkit.
+
+</details>
+
+<details>
+  <summary><strong>Server</strong></summary>
+
+- [BrowserSync](http://www.browsersync.io/) - is a time-saving synchronised browser testing.
+
+</details>
+
+<details>
+  <summary><strong>Linting</strong></summary>
+
+- [ESlint](http://eslint.org/) - is to provide a pluggable linting utility for JavaScript.
+
+- [HTMLHint](https://htmlhint.io/) - is a Static Code Analysis Tool for HTML.
+
+- [Stylelint](https://stylelint.io/) - is a mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
+
+- [Prettier](https://prettier.io/) - is an opinionated code formatter.
+
+</details>
+
+<details>
+  <summary><strong>Code Management</strong></summary>
+
+- [Editorconfig](http://editorconfig.org/) - helps developers define and maintain consistent coding styles between different editors and IDEs.
+
+- [Git](https://git-scm.com/) - is a distributed version control system designed to handle everything from small to very large projects.
+
+</details>
+
+<sub>[⬆️ back to top](#contents)</sub>
+
+## 🔧 Structure
 
 In the directory `src/` is the source code, so that our working directory. In `dist/` directory that should not work, therefore, only if it is absolutely necessary.
 
@@ -228,13 +261,14 @@ If you therefore should not be satisfied, you can change the structure in the `c
  <img src="https://lh3.googleusercontent.com/_cf76yEx5cvPd9bJTsEU4l-lI0iuhgYVeIYtDCU6q42lZx1tLk7SKrpJ3U8sUZ8VDO444SRbgOk" alt="dist_config">
 </p>
 
-<sub>[⇧ back to top](#contents)</sub>
+<sub>[⬆️ back to top](#contents)</sub>
 
-## Build
+## 🛠 Build
 
-### Build CSS
+### 🎨 Build CSS
 
-#### BEM
+<details>
+  <summary><strong>BEM</strong></summary>
 
 Class names that are generated by "Meow", use the [BEM](https://en.bem.info/methodology/quick-start/) syntax. BEM is one of the easiest ways to write  Object Oriented CSS . Surely you can build a lot more delicate with [Smacss](https://smacss.com/), but should not forget that the issue is simply a principle of object-oriented programming here. One should therefore not make a religion out of the topic - the final product will always be CSS with all its drawbacks.
 
@@ -250,9 +284,12 @@ Instance is similar to a modifier, with the difference that the styles of the pa
 
 By default BEM elements marked with a double underscore `__` and BEM Modifier with a double hyphen `--`, Instances with a tripple hyphen `---`. Who does not agree, this may change the Sass Setup file (`src/framework/_defaults.scss`) on the by adjusting the `$meow-bem` Map accordingly.
 
+</details>
+
 ---
 
-#### Framework Structure
+<details>
+  <summary><strong>Framework Structure</strong></summary>
 
 The necessary files can be found under `src/framework/`. Those who want to can extend the framework for specific projects.
 
@@ -260,9 +297,12 @@ The necessary files can be found under `src/framework/`. Those who want to can e
 
  <img src="https://lh3.googleusercontent.com/J7q9Y1ubx2l5UaXAoprc6TcwExA1g1LsIOKVpZ-FaRw642ciM7gKwF0TeAiv0TFYZBXrLvCEov4" alt="framework_structure">
 
+</details>
+
 ---
 
-#### Sass Basics
+<details>
+  <summary><strong>Sass Basics</strong></summary>
 
 To generate the CSS file, you use the `main.scss` from the style directory (`src/style/`). But first the structure:
 
@@ -278,9 +318,12 @@ With the `_loader.scss` file, all required files are loaded. The order is alread
 ***Setup File***
 Almost all settings can be changed and extended over `_setup.scss` (find under `src/style/`).
 
+</details>
+
 ---
 
-#### Grid system
+<details>
+  <summary><strong>Grid system</strong></summary>
 
 We've outsourced the Scss Grid Framework in his own NPM Package to use it in different environments
 You can find it here: [https://github.com/davidhellmann/baukasten-grid](https://github.com/davidhellmann/baukasten-grid)
@@ -293,64 +336,81 @@ The dafaults look like this:
 ```scss
 // Settings
 $bk-grid-settings-custom: (
-  cssgrid: false,
-  cssgrid-fallback: false,
-  flexboxgrid: true,
+  // You want to use CSS Grid?
+  // @Boolean
+  // default: true
+  cssgrid: true,
+
+  // Your Project must support older browsers? No Problem, we've a Fallback (flexbox) here!
+  // @Boolean
+  // default: true
+  cssgrid-fallback: true,
+
+  // You want to use Flexbox only? Also no Problem! But you must set the "cssgrid-fallback" and "cssgrid" to false.
+  // @Boolean
+  // default: false
+  flexboxgrid: false,
+
+  // This add some CSS Styleing to the "section", "row" and "col" classes.
+  // @Boolean
+  // default: false
   testing: false,
+
+  // Naming Conventions? No Problem. You can choose you prefix!
+  // @String
+  // default: 'o-'
   prefix: 'o-',
+
+  // Units are for Paddings and Margins. All Paddings an Margins are Fluid.
+  // That means that on the smallest breakpoint the Padding on each col side
+  // is: gutter * gutter-min-factor (8px * 1) and on the biggest breakpoint it
+  // is: gutter * gutter-max-factor (8px * 2)
+  // For Margins top it is the same with the Vertical factors.
   units: (
     gutter: 8px,
     gutter-min-factor: 1,
     gutter-max-factor: 2,
     gutter-min-vertical-factor: 1,
-    gutter-max-vertical-factor: 2,
+    gutter-max-vertical-factor: 2
   ),
-  offset-classes: false,
-  push-classes: false,
-  pull-classes: false,
+
+  // Class Creation
+  // Not every projects need all this offset / push / pull classes. You decide!
+  // @Boolean
+  // default: true
+  offset-classes: true,
+  push-classes: true,
+  pull-classes: true,
+
+  // Disbale Padding Horizontal for Sections. Rows. Cols
+  // @Boolean
+  // default: false
   disable-padding-horizontal: false,
+
+  // Breakpoints must have at least a "min" and a "max". The other Breakpoints as u like
+  // We use all the time "min-width".
+  // Cols are how many cols can have a row on that specific breakpoint.
   breakpoints: (
-    min: (
-      from: 320px,
-      cols: 12,
-      create-classes: true,
-    ),
-    xs: (
-      from: 400px,
-      cols: 12,
-      create-classes: false,
-    ),
-    s: (
-      from: 600px,
-      cols: 24,
-      create-classes: true,
-    ),
-    m: (
-      from: 800px,
-      cols: 24,
-      create-classes: false,
-    ),
-    l: (
-      from: 1000px,
-      cols: 24,
-      create-classes: true,
-    ),
-    max: (
-      from: 1440px,
-      cols: 24,
-      create-classes: false,
-    ),
-  ),
+    min: (from: 320px, cols: 6, create-classes: true),
+    xs:  (from: 400px, cols: 6, create-classes: true),
+    s:   (from: 600px, cols: 12, create-classes: true),
+    m:   (from: 800px, cols: 12, create-classes: true),
+    l:   (from: 1000px, cols: 24, create-classes: true),
+    max: (from: 1440px, cols: 24, create-classes: true)
+  )
 );
 ```
 
+</details>
+
 ---
 
-<sub>[⇧ back to top](#contents)</sub>
+<sub>[⬆️ back to top](#contents)</sub>
 
-### Build Structure
+### 🏗 Build Structure
 
-#### Compiler
+<details>
+  <summary><strong>Compiler</strong></summary>
 
 To generate HTML files, for example, to build a prototype, you can use HTML compiler like Pug or Twig. Pug and Twig differ less in their features, more in the syntax. The compiler will but set the project start (can also be completely disabled).
 
@@ -358,30 +418,39 @@ When active, the generator is in the `src/` directory `template/` directory inte
 
  <img src="https://lh3.googleusercontent.com/EwMKSpw4lFng3LCfV0aASl4n6iUw29ZyG12OJw5dBmv63aNghE63OU3cNUQMlbzRdgy0QCM69mg" alt="template_structure">
 
+</details>
+
 ---
 
-#### Template Folder
+<details>
+  <summary><strong>Template Folder</strong></summary>
 
 Files in the root of the template directory are compiled to HTML files. In `parts/` are larger template blocks as the header and the block to load the script files. In `templates/` directory contains Main Templates, as a basis for Child Templates in the root.
 
 The compiler will only work with the data of the `template/` directory
 
+</details>
+
 ---
 
-#### Without Compiler
+<details>
+  <summary><strong>Without Compiler</strong></summary>
 
 If you work for example on a WordPress template, the compiler would there rather inappropriate, because you actually have to copy only those files. To stay with the example of the Wordpress template, all the files for the template, added to the structure directory.
 Gulp will copy these files when changing to the appropriate directory.
 
 The Compiler is this, if not already, be switched off in the `config.json` (template.compiler). Gulp-Watch will then monitor the Structure directory (`src/structure/`) on changes to the files .
 
+</details>
+
 ---
 
-<sub>[⇧ back to top](#contents)</sub>
+<sub>[⬆️ back to top](#contents)</sub>
 
-### Build JS
+### 👽 Build JS
 
-#### Main JS File
+<details>
+  <summary><strong>Main JS File</strong></summary>
 
 In `src/js/` directory is the `main.js` file (can be renamed). That is our main file events and scripts are controlled with Javascript. The file passes through a Gulp task, all in addition ESLint also the advantage that you can attach partials.
 
@@ -391,9 +460,12 @@ In `src/js/` directory is the `main.js` file (can be renamed). That is our main 
 
 *The filename of the partials should begin with an **underscore**.*
 
+</details>
+
 ---
 
-#### Scripts
+<details>
+  <summary><strong>Scripts</strong></summary>
 
 To use JS files, they must first be processed with Gulp. JS files are then either in the JS directory `dist/assets/js/` copied or they are combined and copied to the JS directory.
 
@@ -409,19 +481,19 @@ Everything under jsCopy will be simply copied, under jsCombine identifies this f
 gulp rebuild:js
 ```
 
+</details>
+
 ---
 
-<sub>[⇧ back to top](#contents)</sub>
+<sub>[⬆️ back to top](#contents)</sub>
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/RedEagleAP/light-boilerplate/blob/master/LICENSE)
+<sub>[⬆️ back to top](#contents)</sub>
 
-<sub>[⇧ back to top](#contents)</sub>
-
-## Author
+## 💎 Author
 
 ```txt
 Light Boilerplate made with love.
@@ -437,4 +509,4 @@ Github : https://github.com/redeagleap/light-boilerplate.git
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-<sub>[⇧ back to top](#contents)</sub>
+<sub>[⬆️ back to top](#contents)</sub>
