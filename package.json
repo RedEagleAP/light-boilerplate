@@ -1,6 +1,6 @@
 {
   "name": "light-boilerplate",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Lightweight and powerfull startkit for your next project!",
   "homepage": "https://redeagleap.github.io/light-boilerplate/",
   "repository": {
@@ -45,8 +45,8 @@
     "pyrsmk-toast": "^2.2.0",
     "smooth-scroll": "^16.0.3",
     "svgxuse": "^1.2.6",
-    "velocity-animate": "^1.5.2",
-    "swiper": "^4.5.0"
+    "swiper": "^4.5.0",
+    "velocity-animate": "^1.5.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
