@@ -40,12 +40,13 @@
     "baukasten-grid": "^1.0.26",
     "bowser": "^2.3.0",
     "include-media": "^1.4.9",
-    "lazysizes": "^4.1.7",
+    "lazysizes": "^4.1.8",
     "modularscale-sass": "^3.0.8",
     "pyrsmk-toast": "^2.2.0",
     "smooth-scroll": "^16.0.3",
     "svgxuse": "^1.2.6",
-    "velocity-animate": "^1.5.2"
+    "velocity-animate": "^1.5.2",
+    "swiper": "^4.5.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
@@ -136,7 +137,7 @@
     "prettier": "^1.17.0",
     "require-dir": "^1.2.0",
     "run-sequence": "^2.2.1",
-    "sassdoc": "^2.6.0",
+    "sassdoc": "^2.7.0",
     "stylelint": "^10.0.1",
     "stylelint-config-sass-guidelines": "^6.0.0",
     "stylelint-order": "^3.0.0",
@@ -145,7 +146,7 @@
     "webp-in-css": "^0.1.0",
     "webpack": "^4.30.0",
     "webpack-bundle-analyzer": "^3.3.2",
-    "webpack-cli": "^3.3.0",
+    "webpack-cli": "^3.3.1",
     "webpack-config-utils": "^2.3.1",
     "webpack-dev-middleware": "^3.6.2",
     "webpack-hot-middleware": "^2.24.3",

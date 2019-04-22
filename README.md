@@ -11,13 +11,13 @@
   <img src="https://david-dm.org/redeagleap/light-boilerplate/status.svg" alt="Dependencies Status">
   </a>
   <a href="https://github.com/RedEagleAP/light-boilerplate/blob/master/LICENSE">
-  <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="devDependencies Status">
+  <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="License">
   </a>
   <a href="https://github.com/prettier/prettier">
-  <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=square" alt="Dependencies Status">
+  <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=square" alt="Prettier">
   </a>
   <a href="https://www.youtube.com/watch?v=QH2-TGUlwu4">
-  <img src="https://img.shields.io/badge/nyancat-approved-ff69b4.svg" alt="devDependencies Status">
+  <img src="https://img.shields.io/badge/nyancat-approved-ff69b4.svg" alt="nyancat">
   </a>
 </p>
 <p align="center">
@@ -34,7 +34,7 @@
 <div id="contents"></div>
 
 <details>
-  <summary><strong>:bookmark: Table of Contents</strong></summary>
+  <summary><strong>Table of Contents</strong></summary>
 
 - <a href="#intro">:speech_balloon: Intro</a>
 - <a href="#dependencies">:package: Dependencies</a>
@@ -63,7 +63,7 @@ This is a more lightweight version of the boilerplate based on [Meow-Boilerplate
 
 As well as a template for creating [README.md](doc/TEMPLATE.md). Or directly to [repo](https://github.com/RedEagleAP/readme-template).
 
-<div id="intro"></div>
+<div id="dependencies"></div>
 
 ## :package: Dependencies
 
