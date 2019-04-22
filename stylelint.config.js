@@ -123,6 +123,7 @@ module.exports = {
         hasBlock: false,
       },
       'declarations',
+      'rules',
       {
         type: 'at-rule',
         name: 'include',
@@ -133,7 +134,6 @@ module.exports = {
         name: 'media',
         hasBlock: true,
       },
-      'rules',
       'at-rules',
     ],
     'order/properties-order': [

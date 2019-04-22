@@ -26,6 +26,7 @@ const sortingScssTask = () => {
               hasBlock: false,
             },
             'declarations',
+            'rules',
             {
               type: 'at-rule',
               name: 'include',
@@ -36,7 +37,6 @@ const sortingScssTask = () => {
               name: 'media',
               hasBlock: true,
             },
-            'rules',
             'at-rules',
           ],
 
